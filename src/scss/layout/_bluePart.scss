@@ -1,0 +1,45 @@
+.section_blue {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(35, 149, 249);
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+.wrapper-container {
+  overflow-wrap: normal;
+}
+.principal {
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+.secondary {
+  font-size: 1.5rem;
+  margin: 1.25rem 0;
+}
+.button {
+  background-color: limegreen;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  margin: 1.25rem 0;
+  border-radius: 40px;
+}
+.small-text {
+  font-size: 0.7rem;
+  margin: 1.25rem 0;
+}
+@media all and (min-width: 768px) {
+  .section_blue {
+    background-image: url("../../assets/images/premium_dancer.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+  .button {
+    width: 18%;
+  }
+}
+@media all and (min-width: 1200px) {
+}
