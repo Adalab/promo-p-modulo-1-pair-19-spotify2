@@ -2,7 +2,7 @@
   background-color: black;
   position: sticky;
   top: 0;
-  width: 100%;
+  width: 90%;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -20,21 +20,19 @@
   height: 40px;
   margin-left: 110px;
 }
-
-.menu_item {
-  display: inline-block;
+.menu {
   display: none;
 }
-
-.link {
-  text-decoration: none;
-  margin: 0 10px;
-  color: white;
-}
 @media all and (min-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+  }
   .menu_item {
-    display: inline-block;
-    justify-content: space-between;
+    align-items: center;
+    color: white;
   }
   .burguer {
     display: none;
