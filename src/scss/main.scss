@@ -54,7 +54,7 @@
   background-color: rgb(35, 149, 249);
   color: white;
   width: 100%;
-  padding: 40px;
+  padding: 10px;
 }
 .wrapper-container {
   overflow-wrap: normal;
@@ -140,7 +140,7 @@
 /*footer start*/
 .footer {
   background-color: black;
-  font-size: 14px;
+  font-size: 10px;
   color: gray;
   padding: 40px 20px 50px 20px;
   display: flex;
@@ -164,9 +164,11 @@
   color: gray;
   text-decoration: none;
   display: inline-block;
+  margin-top: 15px;
 }
 .texto_der {
   text-align: right;
+  font-size: 10px;
 }
 .bandera {
   width: 20px;
@@ -186,7 +188,7 @@
   }
 
   .section_blue {
-    background-image: url("../../public/assets/images/premium_dancer.png");
+    background-image: url("../../assets/images/premium_dancer.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -194,8 +196,8 @@
   .titulo_principal {
     margin-top: 4rem;
   }
-  .boton {
-    width: 25%;
+  .button {
+    width: 18%;
   }
 
   .condiciones_todas {
