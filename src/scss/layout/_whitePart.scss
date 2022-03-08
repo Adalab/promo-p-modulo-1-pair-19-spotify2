@@ -4,9 +4,8 @@
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 30px;
+  padding: 0, 10px, 30px, 10px;
+  margin-bottom: 30px;
 
   &__premiumTitle {
     font-size: 40px;
@@ -21,8 +20,8 @@
   &__conditions {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 350px;
+    justify-content: center;
+    width: 90%;
 
     &--icon {
       display: flex;
@@ -54,18 +53,23 @@
     font-size: 14px;
   }
   @media all and (min-width: 768px) {
-    .white {
-      justify-content: flex-start;
-
-      &__conditions {
+    &__conditions {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 0;
+      max-width: 1200px;
+      &--icon {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-width: 45%;
+        margin: 0;
+        padding: 0;
       }
     }
-  }
-  @media all and (min-width: 1200px) {
   }
 }
