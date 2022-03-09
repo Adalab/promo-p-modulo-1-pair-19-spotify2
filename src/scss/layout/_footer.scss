@@ -6,18 +6,30 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+
+  &__textoFot {
+    max-width: 250px;
+    display: flex;
+
+    &--menuFooter {
+      display: inline-block;
+    }
+  }
+
+  &__textoDer {
+    text-align: right;
+    font-size: 10px;
+
+    &--textoEspana {
+      margin-bottom: 10px;
+    }
+  }
 }
-.menu_footer {
-  display: inline-block;
-}
+
 .link_footer {
   color: gray;
   text-decoration: none;
   margin: 6px;
-}
-.texto-fot {
-  max-width: 250px;
-  display: flex;
 }
 
 .menu_item_footer {
@@ -26,16 +38,11 @@
   display: inline-block;
   margin-top: 15px;
 }
-.texto_der {
-  text-align: right;
-  font-size: 10px;
-}
+
 .bandera {
   width: 20px;
 }
-.texto_espana {
-  margin-bottom: 10px;
-}
+
 @media all and(min-width:768px) {
 }
 
